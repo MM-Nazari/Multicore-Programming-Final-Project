@@ -1,0 +1,15 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\2\source\repos\FinalProject\FinalProject>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\2\source\repos\FinalProject\FinalProject\kernel.cu" 
+C:/Users/2/source/repos/FinalProject/FinalProject/kernel.cu(28): error : identifier "NUM_CLASSES" is undefined
+C:/Users/2/source/repos/FinalProject/FinalProject/kernel.cu(41): error : identifier "n" is undefined
+C:/Users/2/source/repos/FinalProject/FinalProject/kernel.cu(50): error : expression preceding parentheses of apparent call must have (pointer-to-) function type
+C:/Users/2/source/repos/FinalProject/FinalProject/kernel.cu(52): error : argument of type "char *" is incompatible with parameter of type "int *"
+C:/Users/2/source/repos/FinalProject/FinalProject/kernel.cu(58): error : "histogram" has already been declared in the current scope
+C:/Users/2/source/repos/FinalProject/FinalProject/kernel.cu(59): error : expected a ";"
+C:/Users/2/source/repos/FinalProject/FinalProject/kernel.cu(81): warning : parsing restarts here after previous syntax error
+C:/Users/2/source/repos/FinalProject/FinalProject/kernel.cu(82): error : identifier "deviceHistogram" is undefined
+C:/Users/2/source/repos/FinalProject/FinalProject/kernel.cu(83): error : identifier "hostHistogram" is undefined
+C:/Users/2/source/repos/FinalProject/FinalProject/kernel.cu(86): error : identifier "cudaStatus" is undefined
+  kernel.cu
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\BuildCustomizations\CUDA 10.1.targets(757,9): error MSB3721: The command ""C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\2\source\repos\FinalProject\FinalProject\kernel.cu"" exited with code 1.
