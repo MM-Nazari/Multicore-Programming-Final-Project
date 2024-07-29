@@ -15,7 +15,7 @@ This project is developed using Visual Studio.
 Step-by-step instructions on how to get the development environment running:
 
 ### Steps
-1. Clone repository to your local system
+1. Clone repository to your local system.
 2. Launch Visual Studio.
 3. Click on File > Open > Project/Solution.
 4. Navigate to the folder where you cloned the repository and select the project file (.sln file).
