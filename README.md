@@ -8,6 +8,9 @@
 ## Project Description
 For a detailed project description, please refer to the [Project Description PDF](./project.pdf).
 
+## Built With
+- [CUDA](https://developer.nvidia.com/cuda-zone) - NVIDIA's parallel computing platform and API model.
+
 ## IDE
 This project is developed using Visual Studio.
 
