@@ -10,6 +10,7 @@ For a detailed project description, please refer to the [Project Description PDF
 
 ## Built With
 - [CUDA](https://developer.nvidia.com/cuda-zone) - NVIDIA's parallel computing platform and API model.
+- [OpenMP](https://www.openmp.org/) - An API for parallel programming in shared-memory environments.
 
 ## IDE
 This project is developed using Visual Studio.
